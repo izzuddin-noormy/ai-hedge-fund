@@ -1,6 +1,6 @@
-# Simons AI
+# Simons AI (A tribute to Jim Simons - Renaissance Technologies for showing me the most difficult path in my life)
 
-This is a proof of concept for an AI-powered hedge fund.  The goal of this project is to explore the use of AI to make trading decisions.  This project is for **educational** purposes only and is not intended for real trading or investment.
+This is a proof of concept for an AI-powered Sovereign Wealth Fund.  The goal of this project is to explore the use of AI to make investment decisions.  This project is for **educational** purposes only and is not intended for real investment.
 
 This system employs several agents working together:
 
@@ -24,9 +24,7 @@ This system employs several agents working together:
 <img width="1042" alt="Screenshot 2025-03-22 at 6 19 07 PM" src="https://github.com/user-attachments/assets/cbae3dcf-b571-490d-b0ad-3f0f035ac0d4" />
 
 
-**Note**: the system simulates trading decisions, it does not actually trade.
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
+**Note**: the system simulates investment decisions, it does not actually take position in market.
 
 ## Disclaimer
 
@@ -58,8 +56,8 @@ By using this software, you agree to use it solely for learning purposes.
 
 Clone the repository:
 ```bash
-git clone https://github.com/virattt/ai-hedge-fund.git
-cd ai-hedge-fund
+git clone https://github.com/izzuddin-noormy/simons-ai.git
+cd simons-ai
 ```
 
 1. Install Poetry (if not already installed):
@@ -99,7 +97,7 @@ FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 
 2. Clone the repository:
 ```bash
-git clone https://github.com/virattt/ai-hedge-fund.git
+git clone https://github.com/izzuddin-noormy/simons-ai.git
 cd ai-hedge-fund
 ```
 
@@ -120,7 +118,7 @@ cp .env.example .env
 run.bat build
 ```
 
-**Important**: You must set `OPENAI_API_KEY`, `GROQ_API_KEY`, `ANTHROPIC_API_KEY`, or `DEEPSEEK_API_KEY` for the hedge fund to work.  If you want to use LLMs from all providers, you will need to set all API keys.
+**Important**: You must set `OPENAI_API_KEY`, `GROQ_API_KEY`, `ANTHROPIC_API_KEY`, or `DEEPSEEK_API_KEY` for simons-ai to work.  If you want to use LLMs from all providers, you will need to set all API keys.
 
 Financial data for AAPL, GOOGL, MSFT, NVDA, and TSLA is free and does not require an API key.
 
@@ -128,7 +126,7 @@ For any other ticker, you will need to set the `FINANCIAL_DATASETS_API_KEY` in t
 
 ## Usage
 
-### Running the Hedge Fund
+### Running Simons AI
 
 #### With Poetry
 ```bash
@@ -147,7 +145,7 @@ run.bat --ticker AAPL,MSFT,NVDA main
 **Example Output:**
 <img width="992" alt="Screenshot 2025-01-06 at 5 50 17 PM" src="https://github.com/user-attachments/assets/e8ca04bf-9989-4a7d-a8b4-34e04666663b" />
 
-You can also specify a `--ollama` flag to run the AI hedge fund using local LLMs.
+You can also specify a `--ollama` flag to run Simons AI using local LLMs.
 
 ```bash
 # With Poetry:
@@ -234,7 +232,7 @@ run.bat --ticker AAPL,MSFT,NVDA --ollama backtest
 
 ## Project Structure 
 ```
-ai-hedge-fund/
+simons-ai/
 ├── src/
 │   ├── agents/                   # Agent definitions and workflow
 │   │   ├── bill_ackman.py        # Bill Ackman agent
@@ -269,7 +267,7 @@ ai-hedge-fund/
 
 ## Feature Requests
 
-If you have a feature request, please open an [issue](https://github.com/virattt/ai-hedge-fund/issues) and make sure it is tagged with `enhancement`.
+If you have a feature request, please open an [issue](https://github.com/izzuddin-noormy/simons-ai/issues) and make sure it is tagged with `enhancement`.
 
 ## License
 
