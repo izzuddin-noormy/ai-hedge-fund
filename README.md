@@ -1,4 +1,7 @@
-# Simons AI (A tribute to Jim Simons - Renaissance Technologies for showing me the most difficult path in my life)
+# Simons AI 
+```bash
+A tribute to Jim Simons - Renaissance Technologies for showing me the most difficult path in my life
+```
 
 This is a proof of concept for an AI-powered Sovereign Wealth Fund.  The goal of this project is to explore the use of AI to make investment decisions.  This project is for **educational** purposes only and is not intended for real investment.
 
